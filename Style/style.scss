@@ -1,0 +1,21 @@
+@use "reset";
+
+.container {
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
+
+.navbar {
+    background-color: rgb(212, 9, 77);
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 4rem;
+    
+    }
+    &__button {
+        background-color: transparent;
+    }
+}
